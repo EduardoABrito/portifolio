@@ -1,12 +1,19 @@
 import React from "react";
 
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
+import html from "../assets/tecnologias/html.png";
+import css from "../assets/tecnologias/css.png";
+import javascript from "../assets/tecnologias/javascript.png";
+import typescript from "../assets/tecnologias/typescript.png";
+import jquery from "../assets/tecnologias/jquery.png";
+import reactImage from "../assets/tecnologias/react.png";
+import github from "../assets/tecnologias/github.png";
+import node from "../assets/tecnologias/node.png";
+import csharp from "../assets/tecnologias/csharp.png";
+import aspnet from "../assets/tecnologias/aspnet.png";
+import mysql from "../assets/tecnologias/mysql.png";
+import java from "../assets/tecnologias/java.png";
+import php from "../assets/tecnologias/php.png";
+import bootstrap from "../assets/tecnologias/bootstrap.png";
 
 
 const Experience = () => {
@@ -24,41 +31,77 @@ const Experience = () => {
       style: "shadow-blue-500",
     },
     {
+      id: 2,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-500",
+    },
+    {
       id: 3,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
+      id: 3,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-700",
+    },
+    {
+      id: 3,
+      src: jquery,
+      title: "Jquery",
+      style: "shadow-blue-300",
+    },
+    {
       id: 4,
+      src: node,
+      title: "Node",
+      style: "shadow-green-600",
+    },
+    {
+      id: 4,
+      src: csharp,
+      title: "C#",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 4,
+      src: java,
+      title: "Java",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 4,
+      src: php,
+      title: "php",
+      style: "shadow-indigo-400",
+    },
+    {
+      id: 5,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
-    },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      id: 5,
+      src: aspnet,
+      title: "Asp Net",
+      style: "shadow-blue-600",
     },
     {
       id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-200",
+      src: mysql,
+      title: "Mysql",
+      style: "shadow-indigo-500",
     },
   ];
 
   return (
     <div
       name="Experiencia"
-      className="bg-gradient-to-t from-indigo-900 via-black to-neutral-900 w-full h-screen"
+      className="bg-gradient-to-t from-indigo-900 via-black to-neutral-900 w-full "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
