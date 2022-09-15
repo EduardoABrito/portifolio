@@ -1,8 +1,6 @@
 import React from "react";
 import Perfil from "../assets/perfil.png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
-
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 const Home = () => {
   return (
     <div
@@ -18,18 +16,29 @@ const Home = () => {
             Sou um desenvolverdor focado em back-end, com experiencia profissional M2C Multi. Sempre buscando novas maneiras de obter conhecimentos
           </p>
 
-          <div>
-            <Link
-              to="Projetos"
-              smooth
-              duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-700 to-indigo-900 cursor-pointer"
+          <div className="flex">
+            <a
+              href="https://github.com/EduardoABrito"
+              target="_blank"
+              rel="noreferrer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-700 to-gray-900 cursor-pointer mr-3"
             >
-              Projetos
-              <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              GitHub
+              <span>
+                <FaGithub size={25} className="ml-1" />
               </span>
-            </Link>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/eduardo-a-brito"
+              target="_blank"
+              rel="noreferrer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-l from-cyan-700 to-blue-900 cursor-pointer"
+            >
+              LinkedIn
+              <span>
+                <FaLinkedin size={25} className="ml-1" />
+              </span>
+            </a>
           </div>
         </div>
 

@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/eduardo-a-brito",
       style: "rounded-tr-md",
     },
     {
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Curriculo <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "CurriculoEduardoBrito.pdf",
       style: "rounded-br-md",
       download: true,
     },

@@ -21,11 +21,12 @@ const NavBar = () => {
     {
       id: 4,
       link: "Experiencia",
-    }
+    },
+    
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 bg-neutral-900 text-white fixed">
       <div>
         <h1 className="text-5xl font-signature ml-2">Eduardo Brito</h1>
       </div>
