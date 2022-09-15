@@ -13,6 +13,7 @@ import aspnet from "../assets/tecnologias/aspnet.png";
 import mysql from "../assets/tecnologias/mysql.png";
 import java from "../assets/tecnologias/java.png";
 import php from "../assets/tecnologias/php.png";
+import kali from "../assets/tecnologias/kali.png";
 import bootstrap from "../assets/tecnologias/bootstrap.png";
 
 
@@ -76,13 +77,13 @@ const Experience = () => {
       id: 4,
       src: php,
       title: "php",
-      style: "shadow-indigo-400",
+      style: "shadow-indigo-700",
     },
     {
       id: 5,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
+      style: "shadow-blue-400",
     },
     {
       id: 5,
@@ -94,6 +95,12 @@ const Experience = () => {
       id: 8,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-200",
+    },
+    {
+      id: 8,
+      src: kali,
+      title: "Kali Linux",
       style: "shadow-gray-200",
     },
     {

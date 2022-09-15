@@ -2,6 +2,7 @@ import React from "react";
 import PortalFilmes from "../assets/projetos/portalFilmes.png";
 import PainelWolffox from "../assets/projetos/painelWolffox.png";
 import Wolffox from "../assets/projetos/wolffox.png";
+import LojaDJI from "../assets/projetos/lojadji.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -21,6 +22,12 @@ const Portfolio = () => {
       id: 3,
       src: Wolffox,
       live:"https://wolffoxevents.com.br",  
+      privado:true      
+    },
+    {
+      id: 3,
+      src: LojaDJI,
+      live:"https://www.lojadji.com.br",  
       privado:true      
     },
   ];
@@ -48,7 +55,7 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <a href={live} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Live
+                  Visualizar
                 </a>
                 <a href={code} target="_blank" rel="noreferrer" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   {privado ? "Privado":"Codigo"}
