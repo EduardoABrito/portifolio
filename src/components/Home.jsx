@@ -29,7 +29,7 @@ const Home = () => {
        />
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Sou um desenvolverdor focado em BackEnd, com experiencia profissional M2C Multi. Sempre buscando novas maneiras de obter conhecimentos
+            Sou um desenvolvedor focado em BackEnd, com experiencia profissional M2C Multi. Sempre buscando novas maneiras de obter conhecimentos
           </p>
 
           <div className="flex">
