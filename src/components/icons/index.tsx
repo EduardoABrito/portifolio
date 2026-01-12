@@ -109,3 +109,17 @@ export const CloudIcon = ({
 }: OmitTyped<IconProps, "icon">) => (
   <Icon icon="mdi:cloud-outline" fontSize={fontSize} {...props} />
 );
+
+export const BookOpenIcon = ({
+  fontSize = 20,
+  ...props
+}: OmitTyped<IconProps, "icon">) => (
+  <Icon icon="mdi:book-open-variant-outline" fontSize={fontSize} {...props} />
+);
+
+export const BriefcaseIcon = ({
+  fontSize = 20,
+  ...props
+}: OmitTyped<IconProps, "icon">) => (
+  <Icon icon="mdi:briefcase-outline" fontSize={fontSize} {...props} />
+);
