@@ -19,7 +19,7 @@ export function TimelineResume({ icon, title, items }: TimelineResumeProps) {
         <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
           {icon}
         </div>
-        <h2 className="text-2xl font-bold capitalize">{title}</h2>
+        <h2 className="text-xl font-bold capitalize">{title}</h2>
       </div>
       <ol className="relative ml-5 border-l border-default-300 space-y-8">
         {items.map((item, index) => (
