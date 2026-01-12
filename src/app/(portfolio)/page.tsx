@@ -15,7 +15,7 @@ const skils = [
     icon: <LayoutIcon fontSize={50} />,
   },
   {
-    title: "Back-end", // Foco total aqui
+    title: "Back-end",
     description:
       "Desenvolvimento de APIs escaláveis e microsserviços robustos utilizando todo o poder do NestJS e TypeScript.",
     icon: <ServerIcon fontSize={50} />,

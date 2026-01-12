@@ -18,7 +18,7 @@ export const ProfileMusic = () => {
   if (!data) {
     return (
       <div className="flex items-center gap-3 rounded-2xl p-4">
-        <Icon icon="mdi:spotify" className="text-2xl text-green-500" />
+        <Icon icon="logos:spotify" className="text-2xl " />
         <p className="text-sm text-foreground-500">Nada tocando agora</p>
       </div>
     );
@@ -37,7 +37,9 @@ export const ProfileMusic = () => {
 
         <div className="flex flex-col gap-1">
           <div className="flex items-center gap-1">
-            <Icon icon="logos:spotify-icon" className="text-xl" />
+            <div>
+              <Icon icon="logos:spotify-icon" fontSize={17} />
+            </div>
             <h1 className="text-lg font-semibold text-foreground line-clamp-1">
               {data.title}
             </h1>
