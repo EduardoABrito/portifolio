@@ -108,6 +108,7 @@ const projects: Project[] = [
     description:
       "Aplicativo simples para gerenciamento de tarefas diárias, com funcionalidades básicas.",
     image: "/portfolios/todo-list-app.png",
+    demo: "https://github.com/EduardoABrito/Lab_Projeto_Software_ToDo_List",
     category: "scholl",
   },
   {
@@ -115,6 +116,7 @@ const projects: Project[] = [
     description:
       "Website de reviews e recomendações de filmes, com interface amigável.",
     image: "/portfolios/portal-filmes.png",
+    demo: "https://github.com/EduardoABrito/Projeto_Site_filmes",
     category: "scholl",
   },
 ];
