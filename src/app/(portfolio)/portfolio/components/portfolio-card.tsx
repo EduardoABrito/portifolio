@@ -4,6 +4,7 @@ import { Card } from "@heroui/card";
 import { Button } from "@heroui/button";
 import Image from "next/image";
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 
 interface PortfolioCardProps {
   name: string;
@@ -45,6 +46,7 @@ export function PortfolioCard({
         {demo && (
           <Button
             href={demo}
+            as={Link}
             target="_blank"
             rel="noopener noreferrer"
             variant="flat"
