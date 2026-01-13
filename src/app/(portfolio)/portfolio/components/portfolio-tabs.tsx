@@ -1,6 +1,6 @@
 "use client";
 
-import { Tabs, Tab } from "@heroui/react";
+import { Tabs, Tab } from "@heroui/tabs";
 import { Icon } from "@iconify/react";
 import { PortfolioCard } from "./portfolio-card";
 
@@ -26,14 +26,6 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "Portfolio Website",
-    description:
-      "Meu site pessoal desenvolvido com Next.js, mostrando meus projetos e skills.",
-    image: "/portfolios/portfolio.png",
-    demo: "#",
-    category: "personal",
-  },
-  {
     name: "Wolffox",
     description:
       "Plataforma web para gerenciamento e organização de eventos em tempo real.",
@@ -50,12 +42,27 @@ const projects: Project[] = [
     category: "prof",
   },
   {
-    name: "Grafos em Cidades",
+    name: "Bem Estar Animal",
     description:
-      "Trabalho acadêmico sobre grafos aplicado a cidades, com documentação detalhada.",
-    image: "/portfolios/grafos.png",
-    demo: "https://github.com/EduardoABrito/Grafos-Trabalho-Pratico/blob/master/Documenta%C3%A7%C3%A3o/Documentacao-Trabalho-Grafos.pdf",
+      "Sistema de microchipagem e gerenciamento de dados para clínicas veterinárias.",
+    image: "/portfolios/bem-estar-animal.png",
+    demo: "https://github.com/EduardoABrito/plf-es-2024-1-ti4-0658100-clinica-veterinaria",
     category: "scholl",
+  },
+  {
+    name: "Loja DJI - Multilaser",
+    description:
+      "E-commerce de produtos DJI, focado em experiência de compra e catálogo online.",
+    image: "/portfolios/loja-dji.png",
+    category: "prof",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "Meu site pessoal desenvolvido com Next.js, mostrando meus projetos e skills.",
+    image: "/portfolios/portfolio.png",
+    demo: "#",
+    category: "personal",
   },
   {
     name: "SyncWave",
@@ -64,6 +71,21 @@ const projects: Project[] = [
     image: "/portfolios/syncwave.png",
     demo: "https://dj.eduardoabrito.com.br/",
     category: "personal",
+  },
+  {
+    name: "Lykos",
+    description:
+      "Assistente virtual com inteligência artificial para automatizar tarefas e interações.",
+    image: "/portfolios/lykos.png",
+    category: "bot",
+  },
+  {
+    name: "Grafos em Cidades",
+    description:
+      "Trabalho acadêmico sobre grafos aplicado a cidades, com documentação detalhada.",
+    image: "/portfolios/grafos.png",
+    demo: "https://github.com/EduardoABrito/Grafos-Trabalho-Pratico/blob/master/Documenta%C3%A7%C3%A3o/Documentacao-Trabalho-Grafos.pdf",
+    category: "scholl",
   },
   {
     name: "PhotoMemory",
@@ -82,33 +104,11 @@ const projects: Project[] = [
     category: "scholl",
   },
   {
-    name: "Bem Estar Animal",
-    description:
-      "Sistema de microchipagem e gerenciamento de dados para clínicas veterinárias.",
-    image: "/portfolios/bem-estar-animal.png",
-    demo: "https://github.com/EduardoABrito/plf-es-2024-1-ti4-0658100-clinica-veterinaria",
-    category: "scholl",
-  },
-  {
-    name: "Loja DJI - Multilaser",
-    description:
-      "E-commerce de produtos DJI, focado em experiência de compra e catálogo online.",
-    image: "/portfolios/loja-dji.png",
-    category: "prof",
-  },
-  {
     name: "Portal Filmes",
     description:
       "Website de reviews e recomendações de filmes, com interface amigável.",
     image: "/portfolios/portal-filmes.png",
     category: "scholl",
-  },
-  {
-    name: "Lykos",
-    description:
-      "Assistente virtual com inteligência artificial para automatizar tarefas e interações.",
-    image: "/portfolios/lykos.png",
-    category: "bot",
   },
 ];
 

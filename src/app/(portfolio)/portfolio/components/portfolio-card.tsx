@@ -1,6 +1,7 @@
 "use client";
 
-import { Button, Card } from "@heroui/react";
+import { Card } from "@heroui/card";
+import { Button } from "@heroui/button";
 import Image from "next/image";
 import { Icon } from "@iconify/react";
 
