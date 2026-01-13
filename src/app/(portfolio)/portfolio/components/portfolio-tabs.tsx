@@ -80,14 +80,6 @@ const projects: Project[] = [
     category: "bot",
   },
   {
-    name: "Grafos em Cidades",
-    description:
-      "Trabalho acadêmico sobre grafos aplicado a cidades, com documentação detalhada.",
-    image: "/portfolios/grafos.png",
-    demo: "https://github.com/EduardoABrito/Grafos-Trabalho-Pratico/blob/master/Documenta%C3%A7%C3%A3o/Documentacao-Trabalho-Grafos.pdf",
-    category: "scholl",
-  },
-  {
     name: "PhotoMemory",
     description:
       "Galeria de fotos interativa, desenvolvida como projeto pessoal para exibição de imagens.",
@@ -101,6 +93,21 @@ const projects: Project[] = [
       "Sistema de gestão completo para lanchonetes, incluindo pedidos e controle de estoque.",
     image: "/portfolios/dilanches.png",
     demo: "https://github.com/EduardoABrito/Di-lanches_TIS2_Engenharia_Software",
+    category: "scholl",
+  },
+  {
+    name: "Grafos em Cidades",
+    description:
+      "Trabalho acadêmico sobre grafos aplicado a cidades, com documentação detalhada.",
+    image: "/portfolios/grafos.png",
+    demo: "https://github.com/EduardoABrito/Grafos-Trabalho-Pratico/blob/master/Documenta%C3%A7%C3%A3o/Documentacao-Trabalho-Grafos.pdf",
+    category: "scholl",
+  },
+  {
+    name: "Todo List App",
+    description:
+      "Aplicativo simples para gerenciamento de tarefas diárias, com funcionalidades básicas.",
+    image: "/portfolios/todo-list-app.png",
     category: "scholl",
   },
   {
