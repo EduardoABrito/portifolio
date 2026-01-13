@@ -107,7 +107,7 @@ const projects: Project[] = [
     name: "Todo List App",
     description:
       "Aplicativo simples para gerenciamento de tarefas diárias, com funcionalidades básicas.",
-    image: "/portfolios/todo-list-app.png",
+    image: "/portfolios/todo-list.png",
     demo: "https://github.com/EduardoABrito/Lab_Projeto_Software_ToDo_List",
     category: "scholl",
   },
